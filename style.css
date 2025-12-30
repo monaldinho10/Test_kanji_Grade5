@@ -58,7 +58,7 @@ body{
 .card h1,.card h2,.card h3{margin:0 0 10px 0}
 .muted{color:var(--muted)}
 .lead{font-size:18px}
-.hidden{display:none}
+.hidden{display:none !important}
 .row{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0}
 @media (max-width:640px){.row{grid-template-columns:1fr}}
 .field{display:grid; gap:6px; font-size:13px; color:var(--muted)}
