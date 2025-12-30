@@ -1,0 +1,603 @@
+[
+  {
+    "kanji": "迷",
+    "yomi": [
+      "めい",
+      "まよ(う)"
+    ],
+    "example_read": "道に（迷）ってしまった。",
+    "example_write": "道に（　）ってしまった。",
+    "hint": "まよう"
+  },
+  {
+    "kanji": "在",
+    "yomi": [
+      "ざい",
+      "あ(る)"
+    ],
+    "example_read": "海外に（在）住している。",
+    "example_write": "海外に（　）住している。",
+    "hint": "ざい"
+  },
+  {
+    "kanji": "独",
+    "yomi": [
+      "どく",
+      "ひと(り)"
+    ],
+    "example_read": "（独）りで宿題をする。",
+    "example_write": "（　）りで宿題をする。",
+    "hint": "ひとり"
+  },
+  {
+    "kanji": "弁",
+    "yomi": [
+      "べん"
+    ],
+    "example_read": "自分の意見を（弁）える。",
+    "example_write": "自分の意見を（　）える。",
+    "hint": "べん"
+  },
+  {
+    "kanji": "検",
+    "yomi": [
+      "けん"
+    ],
+    "example_read": "計画を（検）討する。",
+    "example_write": "計画を（　）討する。",
+    "hint": "けん"
+  },
+  {
+    "kanji": "提",
+    "yomi": [
+      "てい"
+    ],
+    "example_read": "新しい案を（提）案する。",
+    "example_write": "新しい案を（　）案する。",
+    "hint": "てい"
+  },
+  {
+    "kanji": "寄",
+    "yomi": [
+      "き",
+      "よ(る)",
+      "よ(せる)"
+    ],
+    "example_read": "駅に（寄）ってから帰る。",
+    "example_write": "駅に（　）ってから帰る。",
+    "hint": "よる"
+  },
+  {
+    "kanji": "余",
+    "yomi": [
+      "よ",
+      "あま(る)"
+    ],
+    "example_read": "時間が（余）った。",
+    "example_write": "時間が（　）った。",
+    "hint": "あまる"
+  },
+  {
+    "kanji": "仏",
+    "yomi": [
+      "ぶつ",
+      "ほとけ"
+    ],
+    "example_read": "（仏）像を見学した。",
+    "example_write": "（　）像を見学した。",
+    "hint": "ぶつ"
+  },
+  {
+    "kanji": "貸",
+    "yomi": [
+      "たい",
+      "か(す)"
+    ],
+    "example_read": "本を（貸）してあげる。",
+    "example_write": "本を（　）してあげる。",
+    "hint": "かす"
+  },
+  {
+    "kanji": "効",
+    "yomi": [
+      "こう",
+      "き(く)"
+    ],
+    "example_read": "薬が（効）いてきた。",
+    "example_write": "薬が（　）いてきた。",
+    "hint": "きく"
+  },
+  {
+    "kanji": "条",
+    "yomi": [
+      "じょう"
+    ],
+    "example_read": "ルールの（条）件を確認する。",
+    "example_write": "ルールの（　）件を確認する。",
+    "hint": "じょう"
+  },
+  {
+    "kanji": "件",
+    "yomi": [
+      "けん"
+    ],
+    "example_read": "その（件）について話そう。",
+    "example_write": "その（　）について話そう。",
+    "hint": "けん"
+  },
+  {
+    "kanji": "保",
+    "yomi": [
+      "ほ",
+      "たも(つ)"
+    ],
+    "example_read": "安全を（保）つ。",
+    "example_write": "安全を（　）つ。",
+    "hint": "たもつ"
+  },
+  {
+    "kanji": "評",
+    "yomi": [
+      "ひょう"
+    ],
+    "example_read": "努力を（評）価する。",
+    "example_write": "努力を（　）価する。",
+    "hint": "ひょう"
+  },
+  {
+    "kanji": "価",
+    "yomi": [
+      "か",
+      "あたい"
+    ],
+    "example_read": "品物の（価）格を調べる。",
+    "example_write": "品物の（　）格を調べる。",
+    "hint": "か"
+  },
+  {
+    "kanji": "賛",
+    "yomi": [
+      "さん"
+    ],
+    "example_read": "その意見に（賛）成する。",
+    "example_write": "その意見に（　）成する。",
+    "hint": "さん"
+  },
+  {
+    "kanji": "妻",
+    "yomi": [
+      "さい",
+      "つま"
+    ],
+    "example_read": "（妻）と買い物に行く。",
+    "example_write": "（　）と買い物に行く。",
+    "hint": "つま"
+  },
+  {
+    "kanji": "混",
+    "yomi": [
+      "こん",
+      "ま(ざる)",
+      "ま(ぜる)"
+    ],
+    "example_read": "人が（混）んでいる。",
+    "example_write": "人が（　）んでいる。",
+    "hint": "こん"
+  },
+  {
+    "kanji": "略",
+    "yomi": [
+      "りゃく",
+      "ほぼ"
+    ],
+    "example_read": "説明を（略）す。",
+    "example_write": "説明を（　）す。",
+    "hint": "りゃく"
+  },
+  {
+    "kanji": "採",
+    "yomi": [
+      "さい",
+      "と(る)"
+    ],
+    "example_read": "意見を（採）用する。",
+    "example_write": "意見を（　）用する。",
+    "hint": "さい"
+  },
+  {
+    "kanji": "禁",
+    "yomi": [
+      "きん"
+    ],
+    "example_read": "校内は（禁）煙です。",
+    "example_write": "校内は（　）煙です。",
+    "hint": "きん"
+  },
+  {
+    "kanji": "能",
+    "yomi": [
+      "のう"
+    ],
+    "example_read": "新しい（能）力を身につける。",
+    "example_write": "新しい（　）力を身につける。",
+    "hint": "のう"
+  },
+  {
+    "kanji": "過",
+    "yomi": [
+      "か",
+      "す(ぎる)",
+      "あやま(つ)"
+    ],
+    "example_read": "行き（過）ぎないで。",
+    "example_write": "行き（　）ぎないで。",
+    "hint": "すぎる"
+  },
+  {
+    "kanji": "程",
+    "yomi": [
+      "てい",
+      "ほど"
+    ],
+    "example_read": "この（程）度で十分。",
+    "example_write": "この（　）度で十分。",
+    "hint": "ほど"
+  },
+  {
+    "kanji": "得",
+    "yomi": [
+      "とく",
+      "え(る)"
+    ],
+    "example_read": "知識を（得）る。",
+    "example_write": "知識を（　）る。",
+    "hint": "える"
+  },
+  {
+    "kanji": "比",
+    "yomi": [
+      "ひ",
+      "くら(べる)"
+    ],
+    "example_read": "二つを（比）べる。",
+    "example_write": "二つを（　）べる。",
+    "hint": "くらべる"
+  },
+  {
+    "kanji": "政",
+    "yomi": [
+      "せい",
+      "まつりごと"
+    ],
+    "example_read": "（政）治を学ぶ。",
+    "example_write": "（　）治を学ぶ。",
+    "hint": "せい"
+  },
+  {
+    "kanji": "興",
+    "yomi": [
+      "こう",
+      "おこ(る)",
+      "おこ(す)"
+    ],
+    "example_read": "（興）味がわく。",
+    "example_write": "（　）味がわく。",
+    "hint": "こう"
+  },
+  {
+    "kanji": "示",
+    "yomi": [
+      "じ",
+      "しめ(す)"
+    ],
+    "example_read": "地図で場所を（示）す。",
+    "example_write": "地図で場所を（　）す。",
+    "hint": "しめす"
+  },
+  {
+    "kanji": "張",
+    "yomi": [
+      "ちょう",
+      "は(る)"
+    ],
+    "example_read": "机に紙を（張）る。",
+    "example_write": "机に紙を（　）る。",
+    "hint": "はる"
+  },
+  {
+    "kanji": "個",
+    "yomi": [
+      "こ"
+    ],
+    "example_read": "りんごを3（個）買う。",
+    "example_write": "りんごを3（　）買う。",
+    "hint": "こ"
+  },
+  {
+    "kanji": "支",
+    "yomi": [
+      "し",
+      "ささ(える)",
+      "しはら(う)"
+    ],
+    "example_read": "家族を（支）える。",
+    "example_write": "家族を（　）える。",
+    "hint": "ささえる"
+  },
+  {
+    "kanji": "豊",
+    "yomi": [
+      "ほう",
+      "ゆた(か)"
+    ],
+    "example_read": "（豊）かな自然。",
+    "example_write": "（　）かな自然。",
+    "hint": "ゆたか"
+  },
+  {
+    "kanji": "布",
+    "yomi": [
+      "ふ",
+      "ぬの"
+    ],
+    "example_read": "（布）で作った袋。",
+    "example_write": "（　）で作った袋。",
+    "hint": "ぬの"
+  },
+  {
+    "kanji": "減",
+    "yomi": [
+      "げん",
+      "へ(る)",
+      "へ(らす)"
+    ],
+    "example_read": "体重が（減）った。",
+    "example_write": "体重が（　）った。",
+    "hint": "へる"
+  },
+  {
+    "kanji": "護",
+    "yomi": [
+      "ご",
+      "まも(る)"
+    ],
+    "example_read": "自然を（護）る。",
+    "example_write": "自然を（　）る。",
+    "hint": "まもる"
+  },
+  {
+    "kanji": "再",
+    "yomi": [
+      "さい",
+      "ふたた(び)"
+    ],
+    "example_read": "（再）び挑戦する。",
+    "example_write": "（　）び挑戦する。",
+    "hint": "ふたたび"
+  },
+  {
+    "kanji": "増",
+    "yomi": [
+      "ぞう",
+      "ま(す)",
+      "ふ(える)",
+      "ふ(やす)"
+    ],
+    "example_read": "人口が（増）える。",
+    "example_write": "人口が（　）える。",
+    "hint": "ふえる"
+  },
+  {
+    "kanji": "証",
+    "yomi": [
+      "しょう",
+      "あかし"
+    ],
+    "example_read": "身分（証）を見せる。",
+    "example_write": "身分（　）を見せる。",
+    "hint": "しょう"
+  },
+  {
+    "kanji": "責",
+    "yomi": [
+      "せき"
+    ],
+    "example_read": "（責）任をもつ。",
+    "example_write": "（　）任をもつ。",
+    "hint": "せき"
+  },
+  {
+    "kanji": "任",
+    "yomi": [
+      "にん",
+      "まか(せる)",
+      "まか(す)"
+    ],
+    "example_read": "仕事を（任）せる。",
+    "example_write": "仕事を（　）せる。",
+    "hint": "まかせる"
+  },
+  {
+    "kanji": "統",
+    "yomi": [
+      "とう"
+    ],
+    "example_read": "意見を（統）一する。",
+    "example_write": "意見を（　）一する。",
+    "hint": "とう"
+  },
+  {
+    "kanji": "酸",
+    "yomi": [
+      "さん"
+    ],
+    "example_read": "レモンは（酸）っぱい。",
+    "example_write": "レモンは（　）っぱい。",
+    "hint": "さん"
+  },
+  {
+    "kanji": "素",
+    "yomi": [
+      "そ",
+      "す"
+    ],
+    "example_read": "（素）直に言う。",
+    "example_write": "（　）直に言う。",
+    "hint": "す"
+  },
+  {
+    "kanji": "設",
+    "yomi": [
+      "せつ",
+      "もう(ける)"
+    ],
+    "example_read": "学校に新しい部を（設）ける。",
+    "example_write": "学校に新しい部を（　）ける。",
+    "hint": "もうける"
+  },
+  {
+    "kanji": "授",
+    "yomi": [
+      "じゅ",
+      "さず(ける)"
+    ],
+    "example_read": "先生が賞を（授）ける。",
+    "example_write": "先生が賞を（　）ける。",
+    "hint": "さずける"
+  },
+  {
+    "kanji": "紀",
+    "yomi": [
+      "き"
+    ],
+    "example_read": "21世（紀）。",
+    "example_write": "21世（　）。",
+    "hint": "き"
+  },
+  {
+    "kanji": "財",
+    "yomi": [
+      "ざい"
+    ],
+    "example_read": "町の（財）産を守る。",
+    "example_write": "町の（　）産を守る。",
+    "hint": "ざい"
+  },
+  {
+    "kanji": "脈",
+    "yomi": [
+      "みゃく"
+    ],
+    "example_read": "手首の（脈）をとる。",
+    "example_write": "手首の（　）をとる。",
+    "hint": "みゃく"
+  },
+  {
+    "kanji": "織",
+    "yomi": [
+      "しょく",
+      "お(る)"
+    ],
+    "example_read": "布を（織）る。",
+    "example_write": "布を（　）る。",
+    "hint": "おる"
+  },
+  {
+    "kanji": "築",
+    "yomi": [
+      "ちく",
+      "きず(く)"
+    ],
+    "example_read": "信頼を（築）く。",
+    "example_write": "信頼を（　）く。",
+    "hint": "きずく"
+  },
+  {
+    "kanji": "旧",
+    "yomi": [
+      "きゅう",
+      "ふる(い)"
+    ],
+    "example_read": "（旧）友に会う。",
+    "example_write": "（　）友に会う。",
+    "hint": "きゅう"
+  },
+  {
+    "kanji": "規",
+    "yomi": [
+      "き"
+    ],
+    "example_read": "（規）則を守る。",
+    "example_write": "（　）則を守る。",
+    "hint": "き"
+  },
+  {
+    "kanji": "則",
+    "yomi": [
+      "そく",
+      "のっと(る)"
+    ],
+    "example_read": "ルールに（則）って行動する。",
+    "example_write": "ルールに（　）って行動する。",
+    "hint": "そく"
+  },
+  {
+    "kanji": "貯",
+    "yomi": [
+      "ちょ",
+      "た(める)"
+    ],
+    "example_read": "お金を（貯）める。",
+    "example_write": "お金を（　）める。",
+    "hint": "ためる"
+  },
+  {
+    "kanji": "型",
+    "yomi": [
+      "けい",
+      "かた"
+    ],
+    "example_read": "星（型）のシール。",
+    "example_write": "星（　）のシール。",
+    "hint": "がた"
+  },
+  {
+    "kanji": "液",
+    "yomi": [
+      "えき"
+    ],
+    "example_read": "（液）体をこぼさないで。",
+    "example_write": "（　）体をこぼさないで。",
+    "hint": "えき"
+  },
+  {
+    "kanji": "基",
+    "yomi": [
+      "き",
+      "もと"
+    ],
+    "example_read": "（基）本を大切にする。",
+    "example_write": "（　）本を大切にする。",
+    "hint": "き"
+  },
+  {
+    "kanji": "額",
+    "yomi": [
+      "がく",
+      "ひたい"
+    ],
+    "example_read": "（額）に汗がにじむ。",
+    "example_write": "（　）に汗がにじむ。",
+    "hint": "ひたい"
+  },
+  {
+    "kanji": "故",
+    "yomi": [
+      "こ",
+      "ゆえ"
+    ],
+    "example_read": "事（故）が起きた。",
+    "example_write": "事（　）が起きた。",
+    "hint": "こ"
+  }
+]

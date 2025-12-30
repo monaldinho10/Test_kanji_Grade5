@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>漢字テスト（読み＋書き混合）</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">漢</div>
+      <div>
+        <div class="title">漢字テスト</div>
+        <div class="subtitle">読み＋書き 混合（小5向け）</div>
+      </div>
+    </div>
+    <div class="stats">
+      <div class="pill" id="setInfo">—</div>
+      <div class="pill" id="scoreInfo">—</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card" id="startCard">
+      <h1>スタート</h1>
+      <p class="muted">
+        56字からランダムに出題します。<br/>
+        「読み（4択）」と「書き（入力）」が半分ずつ出ます。<br/>
+        間違えた漢字は次のセットで出やすくなります。
+      </p>
+
+      <div class="row">
+        <label class="field">
+          1セットの問題数
+          <select id="qCount">
+            <option value="10" selected>10問</option>
+            <option value="20">20問</option>
+            <option value="30">30問</option>
+          </select>
+        </label>
+
+        <label class="field">
+          書き問題の割合
+          <select id="writeRatio">
+            <option value="0.5" selected>50%</option>
+            <option value="0.4">40%</option>
+            <option value="0.6">60%</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="actions">
+        <button class="btn primary" id="startBtn">はじめる</button>
+        <button class="btn" id="resetBtn" title="間違い履歴を消します">復習履歴リセット</button>
+      </div>
+
+      <details class="box">
+        <summary>このアプリの使い方</summary>
+        <ul>
+          <li>読み問題：文中の（漢字）の読みを4択で選びます。</li>
+          <li>書き問題：よみ（ひらがな）を見て、（　）に入る漢字を入力します。</li>
+          <li>正解後は「次へ」。不正解の場合は正解を表示します。</li>
+        </ul>
+      </details>
+    </section>
+
+    <section class="card hidden" id="quizCard">
+      <div class="qhead">
+        <div class="qtype" id="qType">—</div>
+        <div class="qnum" id="qNum">—</div>
+      </div>
+
+      <div class="prompt" id="prompt">—</div>
+
+      <div class="choices hidden" id="choices"></div>
+
+      <div class="write hidden" id="writeArea">
+        <input id="writeInput" type="text" inputmode="text" autocomplete="off" placeholder="ここに漢字を入力（例：増）" />
+        <div class="hint" id="writeHint">—</div>
+      </div>
+
+      <div class="feedback hidden" id="feedback"></div>
+
+      <div class="actions">
+        <button class="btn primary" id="submitBtn">答える</button>
+        <button class="btn hidden" id="nextBtn">次へ</button>
+        <button class="btn ghost" id="quitBtn">終了</button>
+      </div>
+    </section>
+
+    <section class="card hidden" id="resultCard">
+      <h2>結果</h2>
+      <p id="resultSummary" class="lead">—</p>
+      <div class="box">
+        <h3>間違えた漢字（復習）</h3>
+        <div id="wrongList" class="chips muted">—</div>
+      </div>
+      <div class="actions">
+        <button class="btn primary" id="againBtn">もう1セット</button>
+        <button class="btn" id="backBtn">トップへ</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer muted">
+    ローカル保存：間違い履歴はこの端末のブラウザに保存されます（localStorage）。
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

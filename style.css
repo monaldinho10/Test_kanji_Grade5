@@ -1,0 +1,141 @@
+*{box-sizing:border-box}
+:root{
+  --bg:#0b0d12;
+  --card:#121725;
+  --card2:#0f1320;
+  --text:#e9ecf1;
+  --muted:#aeb6c4;
+  --line:#24304a;
+  --accent:#6ee7ff;
+  --accent2:#a78bfa;
+  --danger:#ff7b7b;
+  --ok:#67f5a8;
+}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Segoe UI", sans-serif;
+  background: radial-gradient(1200px 600px at 20% 0%, rgba(110,231,255,.12), transparent 60%),
+              radial-gradient(900px 600px at 80% 10%, rgba(167,139,250,.10), transparent 55%),
+              var(--bg);
+  color:var(--text);
+}
+.topbar{
+  position:sticky; top:0; z-index:10;
+  backdrop-filter: blur(10px);
+  background: rgba(11,13,18,.65);
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  padding: 12px 16px;
+  display:flex; gap:12px; align-items:center; justify-content:space-between;
+}
+.brand{display:flex; gap:10px; align-items:center}
+.logo{
+  width:40px; height:40px; border-radius:12px;
+  display:grid; place-items:center;
+  background: linear-gradient(135deg, rgba(110,231,255,.25), rgba(167,139,250,.25));
+  border:1px solid rgba(255,255,255,.08);
+  font-weight:800;
+}
+.title{font-weight:800; letter-spacing:.02em}
+.subtitle{font-size:12px; color:var(--muted); margin-top:2px}
+.stats{display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end}
+.pill{
+  padding:8px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(18,23,37,.55);
+  font-size:12px;
+  color:var(--muted);
+}
+.container{max-width:840px; margin:20px auto; padding:0 16px}
+.card{
+  background: linear-gradient(180deg, rgba(18,23,37,.90), rgba(15,19,32,.90));
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:20px;
+  padding:18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+.card h1,.card h2,.card h3{margin:0 0 10px 0}
+.muted{color:var(--muted)}
+.lead{font-size:18px}
+.hidden{display:none}
+.row{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:14px 0}
+@media (max-width:640px){.row{grid-template-columns:1fr}}
+.field{display:grid; gap:6px; font-size:13px; color:var(--muted)}
+select,input{
+  padding:12px 12px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(11,13,18,.55);
+  color:var(--text);
+  outline:none;
+}
+input:focus, select:focus{border-color: rgba(110,231,255,.55)}
+.actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
+.btn{
+  padding:12px 14px;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.04);
+  color:var(--text);
+  cursor:pointer;
+}
+.btn:hover{border-color: rgba(255,255,255,.20)}
+.btn.primary{
+  border-color: rgba(110,231,255,.35);
+  background: linear-gradient(135deg, rgba(110,231,255,.18), rgba(167,139,250,.12));
+}
+.btn.ghost{background:transparent}
+.box{
+  margin-top:14px;
+  padding:12px 12px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.18);
+}
+.qhead{display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:10px}
+.qtype{
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(110,231,255,.08);
+  color: var(--text);
+}
+.qnum{font-size:12px; color:var(--muted)}
+.prompt{
+  font-size:20px;
+  line-height:1.6;
+  padding:10px 2px 6px 2px;
+}
+.choices{display:grid; grid-template-columns:1fr; gap:10px; margin-top:12px}
+.choice{
+  padding:12px 12px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(0,0,0,.12);
+  cursor:pointer;
+}
+.choice:hover{border-color: rgba(110,231,255,.35)}
+.choice.selected{border-color: rgba(110,231,255,.60)}
+.write{margin-top:12px; display:grid; gap:8px}
+.hint{font-size:12px; color:var(--muted)}
+.feedback{
+  margin-top:12px;
+  padding:12px 12px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(0,0,0,.18);
+}
+.feedback.ok{border-color: rgba(103,245,168,.35)}
+.feedback.ng{border-color: rgba(255,123,123,.35)}
+.chips{display:flex; gap:8px; flex-wrap:wrap}
+.chip{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.04);
+  font-size:13px;
+}
+.footer{max-width:840px; margin:10px auto 22px; padding:0 16px; font-size:12px}
